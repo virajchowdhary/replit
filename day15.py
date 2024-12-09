@@ -16,6 +16,8 @@ while Animals.lower() != "dog" and Animals.lower() != "cat" and Animals != "hors
     print("Cat goes Meow")
   elif Animals.lower() == "horse":
     print("Horse goes Neigh")
+else:
+    print("I dont know that sound  try cat dog or horse")
 #correct code
 #exit = "no"
 #while exit == "no":
