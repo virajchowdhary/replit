@@ -45,7 +45,7 @@ while True:
         List.remove(item) 
         time.sleep(1)
         os.system("clear")
-    elif Do.lower()=="No":
+    elif Do.lower()=="no":
       print("bringing you back to the menu")
       time.sleep(2)
       os.system("clear")
