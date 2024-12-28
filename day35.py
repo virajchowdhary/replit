@@ -13,7 +13,7 @@ def Look():
   for item in List:
    print(item)
 while True:
-  menu = input("Do you want to view, add,remove or edit your to do list?: ")
+  menu = input("Do you want to view, add,remove or edit or delete your to do list?: ")
   if menu.lower() == "view":
     print()
     PrettyPrint()
@@ -65,6 +65,9 @@ while True:
       print(f"{item} was not in the list")
       time.sleep(2)
       os.system("clear")
-    
+  elif menu.lower() == "delete":
+    List = []
+    time.sleep(1)
+    os.system("clear")
   else:
     os.system("clear")
